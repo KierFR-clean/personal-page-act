@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     function emailValidator() {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      const email = $('email').val();
+      const email = $('#email').val().trim();
       return emailRegex.test(email);
     }
 
@@ -30,7 +30,7 @@ $(document).ready(function() {
             button: "OK",
         });
             return;
-        }  else if (!emailValidator()) {
+        } else if (!emailValidator()) {
           swal({
           title: "Error!",
           text: "Please enter a valid email!",
