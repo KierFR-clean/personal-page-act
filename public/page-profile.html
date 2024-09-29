@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./stylings/page-profile-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+
+    <title>About Kier -- Profile Project Personal Page</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <section class="nav_con">
+            <header class="wrapper str_line wrapper">
+                <section class="nav_abt_name">
+                    <a href="#" class="logo--current-intro-name" aria-current="page">
+                        <section class="intr-name">
+                            Kier Christian F. Reyes
+                        </section>
+                    </a>
+                    <a href="#" class="with--consistency" aria-current="page">
+                        一貫性を持って
+                    </a>
+
+                    <a href="#" class="min-desc" aria-current="page">
+                        <section class="min-desc-current-name">
+                            Technique, Technique. Technique!
+                        </section>
+                    </a>
+
+                </section>
+
+                <section class="nav_list">
+                    <section class="abt-me-current">
+                        <a href="#about" id="aboutlink" class="abt-me" aria-current="page">About</a>
+                    </section>
+                    <section class="skills-me-current">
+                        <a href="#skills" id="skillslink" class="skills-me" aria-current="page">Skills</a>
+                    </section>
+                    <section class="contact-me-current">
+                        <a href="#contact" id="contactlink" class="contact-me" aria-current="page">Contact</a>
+                    </section>
+                </section>
+            </header>
+        </section>
+    </nav>
+
+
+<div class="page-wrapper">
+    <section class="intro" id="about">
+        <a href="#" class="intro-about" aria-current="page">
+            About Me
+        </a>
+        <a href="#" class="translate-abt" aria-current="page">私について</a>
+    </section>
+
+    <a href="#contact" class="intro_call_abt_me">
+        <div class="intro-txt-me">Get in Touch</div>
+        <div class="btn-shot">⇌</div>
+    </a>
+
+    <section class="img-wth-personal-details">
+        <div class="img-abt-me">
+            <img src="images/profile-image.png" alt="" class="profile-img">
+        </div>
+
+        <div class="about-me-msg">
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Adipiscing ac tempor nulla quisque rhoncus mauris
+            varius. Blandit justo maecenas praesent aliquam pulvinar eleifend volutpat vel. Nec lobortis non fringilla
+            ad justo nostra sagittis. Hac vehicula pellentesque placerat inceptos ac. Aenean vel consectetur ridiculus
+            elementum ac donec montes senectus. Nunc etiam tristique ex hac placerat est. Ullamcorper inceptos
+            imperdiet, class neque vel et platea hendrerit odio. Pretium gravida parturient duis pretium accumsan litora
+            sit dignissim litora. Hac risus ligula sociosqu arcu, imperdiet tortor sollicitudin curabitur.
+        </div>
+    </section>
+
+    <section class="intro-me-skills" id="skills">
+        <a href="#" class="intro-skills" aria-current="page">
+            My Skills
+        </a>
+        <a href="#" class="translate-skills" aria-current="page">スキル</a>
+    </section>
+
+
+    <section class="skills-side-list">
+
+        <div class="skills-container">
+            <div class="slider">
+
+                <div class="track">
+                    <div class="skills-st">
+                        <i class="fa-brands fa-css3" style="color: #2280bb;"></i>
+                    </div>
+                    <div class="skills-st">
+                        <i class="fa-brands fa-html5" style="color: #e38b60;"></i>
+                    </div>
+                    <div class="skills-st">
+                        <i class="fa-brands fa-java" style="color: #e89d39;"></i>
+                    </div>
+                    <div class="skills-st">
+                        <i class="fa-brands fa-php" style="color: #8080c0;"></i>
+                    </div>
+                    <div class="skills-st">
+                        <i class="fa-brands fa-python" style="color: #edd987;"></i>
+                    </div>
+                    <div class="skills-st">
+                        <i class="fa-brands fa-react" style="color: #53d2d2;"></i>
+                    </div>
+                    <div class="skills-st">
+                        <i class="fa-brands fa-git-alt" style="color: #ff8040;"></i>
+                    </div>
+                    <div class="skills-st">
+                        <i class="fa-brands fa-laravel" style="color: #ff7939;"></i>
+                    </div>
+                    <div class="skills-st">
+                        <i class="fa-brands fa-js" style="color: #fbe83c;"></i>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro-me-contact" id="contact">
+        <a href="#" class="intro-contact" aria-current="page">
+            Contact Me
+        </a>
+        <a href="#" class="translate-contact" aria-current="page">連絡してください</a>
+    </section>
+
+
+    <section class="contact-pnl">
+        
+        <div class="contact-container">
+            <section class="txt-form">
+                <h3 "> Send a Request Here</h3>
+            </section>
+          
+            <section class="forms-for-reaching">
+                <form action="" method="post" class="forms-for-contact" id="contact-form">
+                    <input type="text" id="name" placeholder="Name*" >
+                    <input type="text" id="email" placeholder="Email*">
+                    <span id="emailFeedback" style="color: red;"></span>
+                    <textarea name="message" id="message" placeholder="Message*"></textarea>                        
+                    <section class="btn-contact">
+                        <button type="submit" class="btn-submit"><div class="intro-contact-me">Send Request</div>
+                            <div class="btn-shot-contact">→</div></button>   
+                    </section>
+                </form>
+            </section>
+
+        </div>
+
+    </section>
+    <footer>
+        <section class="reached-section">
+            <div class="reached-section-container">
+                <section class="start-msg">
+                    <h1>Open for Partnership</h1>
+                </section>
+
+                <section class="reached-out-list">
+                    <ul class="reach-me-at">
+                        <section class="icon-container">
+                            <a href="https://github.com/KierFR-clean" class="icon-reached linked-in" aria-current="page"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+                        </section>
+                        <section class="icon-container">
+                            <a href="https://www.linkedin.com/in/kier-christian-reyes-3a7354295/" class="icon-reached github" aria-current="page"><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
+                        </section>
+                        <section class="icon-container">
+                            <a href="https://www.facebook.com/profile.php?id=100077414337413" class="icon-reached facebook" aria-current="page"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+                        </section>
+                    </ul>
+                </section>
+            </div>
+        </section>
+    </footer>
+   
+</div>
+    <script src="functions/validator.js"></script>
+</body>
+
+</html>
